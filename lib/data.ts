@@ -49,6 +49,14 @@ export const experiencesData = [
     icon: React.createElement(FaReact),
     date: "2020 - present",
   },
+  {
+    title: "Technology Consultant at Mulca",
+    location: "Giza, Egypt",
+    description:
+      "Lead the development of a web application designed for co-ownership scenarios, starting from scratch, and provide technical expertise to ensure its success.",
+    icon: React.createElement(FaReact),
+    date: "2023 - present",
+  },
   // {
   //   title: "Front-End Developer",
   //   location: "Orlando, FL",
@@ -60,13 +68,13 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
-  // {
-  //   title: "Mulca",
-  //   description:
-  //     "I worked as a full-stack developer on this startup project for 3 months.",
-  //   tags: ["React", "Next.js", "Tailwind", "Sanity", "Prisma"],
-  //   imageUrl: mulca,
-  // },
+  {
+    title: "Mulca",
+    description:
+      "As a solo developer, I designed and implemented mulca web application from scratch, handling both the front-end and backend.",
+    tags: ["React", "Next.js", "Tailwind", "Sanity", "Prisma"],
+    imageUrl: mulca,
+  },
   {
     title: "rmtDev",
     description:
