@@ -60,13 +60,13 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
-  {
-    title: "Mulca",
-    description:
-      "I worked as a full-stack developer on this startup project for 3 months.",
-    tags: ["React", "Next.js", "Tailwind", "Sanity", "Prisma"],
-    imageUrl: mulca,
-  },
+  // {
+  //   title: "Mulca",
+  //   description:
+  //     "I worked as a full-stack developer on this startup project for 3 months.",
+  //   tags: ["React", "Next.js", "Tailwind", "Sanity", "Prisma"],
+  //   imageUrl: mulca,
+  // },
   {
     title: "rmtDev",
     description:
