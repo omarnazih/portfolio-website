@@ -3,8 +3,8 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import mulca from "@/public/mulca.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import tiSolver from "@/public/tiSolver.png";
+import codeRacer from "@/public/codeRacer.png";
 
 export const links = [
   {
@@ -78,20 +78,21 @@ export const projectsData = [
       "As a solo developer, I designed and implemented mulca web application from scratch, handling both the front-end and backend.",
     tags: ["React", "Next.js", "Tailwind", "Sanity", "Prisma"],
     imageUrl: mulca,
+    projectUrl: "https://mulca.io",
   },
   {
-    title: "rmtDev",
-    description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+    title: "TiSolver",
+    description: "A landing page and a blog for a software startup.",
+    tags: ["React", "TypeScript", "Next.js", "Tailwind"],
+    imageUrl: tiSolver,
+    projectUrl: "https://tisolver.com",
   },
   {
-    title: "Word Analytics",
-    description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
+    title: "Code Racer",
+    description: "A speed typing multiplayer open source web application.",
     tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+    imageUrl: codeRacer,
+    projectUrl: "https://code-racer-eight.vercel.app/",
   },
 ] as const;
 
